@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_demo/screen/SplashScreen.dart';
-import 'package:flutter_app_demo/screen/profilepage.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ProfileScreen(),
+      home: SplashScreen(),
     );
   }
 }
